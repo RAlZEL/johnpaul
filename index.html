@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello I'm Jp</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/6710dd5e53.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#recommendation">Recommendation</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Manhwa Reader</p>
+        <h1>Hi, I'm John <span>Paul</span><br>Welcome to my Website</h1>
+        </div>
+    </div>
+</div>
+
+<!----------------------------ABOUT----------------------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello! I am John Paul Cudal, 20 years of age from Mamburao, Occidental Mindoro. Right now, I currently live in Cuta Batangas in an apartment. I like reading manhwa that is why this website is inspired by Solo Leveling one of manhwas that I read and also, I like watching anime and playing games. when I have free time what I do is I play games like Mobile Legends, Valorant, sandbox games and etc. If you want to know more about me you can message me via email.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('hobbies')">Hobbies</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="hobbies">
+                    <ul>
+                        <li><span>Playing Mobile Games</span><br>When I have free time what I do is I play games like Mobile Legends,etc.</li>
+                        <li><span>Reading Manhwas</span><br>I like reading manhwa especially when there's too much going on in my mind.</li>
+                        <li><span>Watching Anime/Movies</span><br>Sometimes when I'm not playing or reading what I'm doing is watching.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Elementary</span><br>I Graduated Grade School in Mamburao Central School.</li>
+                        <li><span>Highschool</span><br>I Graduated Secondary School in Occidental Mindoro National Highschool.</li>
+                        <li><span>Senior Highschool</span><br>I finished my Senior high school here in Batangs in Lyceum of the Philippines University Batangas.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------------RECOMMENDATION----------------------------->
+
+<div id="recommendation">
+    <div class="container">
+        <h1 class="sub-title">Recommendation</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Solo Leveling</h3>
+                    <p>In a world where hunters, humans who possess magical abilities must battle deadly monsters to protect the human race from certain annihilation, a notoriously weak hunter named Sung Jinwoo finds himself in a seemingly endless struggle for survival.</p>
+                    <a href="https://beta.asurascans.com/comics/25-solo-leveling"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Noblesse</h3>
+                    <p>He holds the special title of Noblesse which is a pure-blooded Noble and protector of all other Nobles. In an attempt to protect Raizel, his servant Frankenstein enrolls him at Ye-Ran High School, where Raizel learn the simple and quotidian routines of the human world through his classmates.</p>
+                    <a href="https://www.webtoons.com/en/action/noblesse/list?title_no=87&page=1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>The Beginning After The End</h3>
+                    <p>Reborn as Arthur Leywin, he seeks to correct his past mistakes in the vibrant new continent of Dicathen, a world of magic and fantastical creatures.</p>
+                    <a href="https://thebeginningaftertheend.online/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://beta.asurascans.com/" class="btn">See More</a>
+    </div>
+</div>
+
+<!---------------------------------------CONTACT-------------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> johnpaulcudal09@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 09292597189</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/johnpaul.cudal.7"><i class="fa-brands fa-facebook"></i></i></a>
+                    <a href="https://www.instagram.com/trashero_3/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://t.me/trash_ero"><i class="fa-brands fa-telegram"></i></i></a>
+                </div>
+                <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Messagge"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0" 
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px" 
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwNNbQTr1zHmmW4x1q7c0W4_Ip5h2lg9PYzaUfv36zugvG4oy1yiC9tcosn8ev-rcCw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
